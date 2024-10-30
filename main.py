@@ -205,7 +205,7 @@ async def predict(file: UploadFile = File(...)):
             "calls_stt": transcription,
             "phishing_risk": phishing_risk,
             "risk_keywords": risk_keywords,
-            # "deepvoice": deepvoice
+            "deepvoice": deepvoice
         }
 
     except Exception as e:
